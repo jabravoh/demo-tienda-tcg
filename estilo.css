@@ -1,0 +1,13 @@
+:root{--tinta:#1d1b18;--suave:#5c574f;--fondo:#faf7f2;--linea:#e4ddd1;--acento:#8a2d1f}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--tinta);background:var(--fondo);line-height:1.6}
+main{max-width:680px;margin:0 auto;padding:56px 24px 72px}
+header{border-bottom:1px solid var(--linea);padding-bottom:24px;margin-bottom:32px}
+.marca{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--acento);margin:0 0 8px;font-family:system-ui,sans-serif}
+h1{font-size:34px;line-height:1.2;margin:0 0 12px;font-weight:600}
+h2{font-size:20px;margin:32px 0 8px}
+p,li{font-size:17px}
+.nota{color:var(--suave);font-size:15px}
+a{color:var(--acento)}
+nav{font-family:system-ui,sans-serif;font-size:14px;margin-top:40px;padding-top:20px;border-top:1px solid var(--linea)}
+nav a{margin-right:16px}
